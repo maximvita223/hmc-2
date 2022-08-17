@@ -3,7 +3,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine() ??"0");
 int sum = 0;
 if (num > 0)
 {
