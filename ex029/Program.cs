@@ -4,7 +4,7 @@ int[] array1 = new int[8];
 
 Random rnd = new Random();
 Console.Write ("Случайный массив из 8 элементов - ");
-for ( int i = 0; i < 8; i++)
+for ( int i = 0; i < array1.Length; i++)
 {
     array1[i] = rnd.Next();
     Console.Write (array1[i] + " ");
